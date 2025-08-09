@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon exercicios/server.js"
+    "start": "nodemon --env-file=.env exercicios/server.js"
   },
   "repository": {
     "type": "git",
