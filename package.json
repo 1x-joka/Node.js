@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Curso Gringo de Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon exercicios/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1x-joka/Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1x-joka/Node.js/issues"
+  },
+  "homepage": "https://github.com/1x-joka/Node.js#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
