@@ -31,6 +31,7 @@ const getUserByIdHandler = (req, res) => {
         const user = users.find((user) => user.id === parseInt(id)) // users.find: Procura no array users o primeiro objeto que atenda à condição... ; (user) => user.id === parseInt(id): Condição de que o id do objeto seja igual ao número passado na URL
     if (user) {
             res.write(JSON.stringify(user))
+            res.statusCode = 200
         } else {
             res.statusCode = 404
             res.write(JSON.stringify({message: 'User not found'})) // {message: 'User not found'}: Cria um objeto JS com uma chave 'message'
